@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		#nav li{
+			/*元素浮动：块元素不独立成行*/
+			float: left;
+			/*去掉列表前的点*/
+			list-style: none;
+			border:1px solid blue;
+			width: 80px;
+			height:30px;
+			text-align: center;
+			line-height: 30px;
+			background-color: #aaa;
+		}
+
+		/*伪类选择器*/
+
+		#nav li:hover{
+			background-color: #ff0;
+		}
+	</style>
+</head>
+<body>
+	<ul id="nav">
+		<li><a  href="http://baidu.com">百度</a></li>
+		<li><a href="">网易</a></li>
+		<li><a href="">腾讯</a></li>
+		<li><a href="">淘宝</a></li>
+		<li><a href="">支付宝</a></li>
+	</ul>
+</body>
+</html>
